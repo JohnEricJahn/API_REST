@@ -32,7 +32,7 @@ class TokenController {
         expiresIn: process.env.TOKEN_EXPIRATION,
       });
 
-      res.json({ token });
+      return res.json({ token });
     } catch (e) {
       res.status(401).json({
         errors: ['Erro inesperado'],
