@@ -21,5 +21,6 @@ module.exports = {
     "quote-props" : "off",
     "arrow-body-style": "off",
     "no-param-reassign" : "off",
+    "camelcase": "off",
   },
 };
